@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Race Car</title>
+  </head>
+  <body id="main">
+    <div class="game-intro">
+      <section id="button">
+        <img src="images/logoMain.png" alt="" class="logo-img" />
+        <header>ESCAPE ROOM</header>
+        <button id="start-button">StartGame</button>
+        <p id="text">Reach the 100% loading</p>
+        <p id="text">Hint: Looking the past can give you a shortcut</p>
+      </section>
+      <section id="instruction">
+        <img src="images/leftArrow.png" alt="" class="arrows-img" />
+        <p>USE THE LEFT & RIGHT ARROW</p>
+        <img src="images/rightArrow.png" alt="" class="arrows-img" />
+      </section>
+    </div>
+
+    <div id="game-board">
+      <canvas id="canvas" width="500" height="500"></canvas>
+      <h1>LOADING: <span>0</span></h1>
+    </div>
+    <!-- primero clases y luego index al colocar los scripts-->
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>

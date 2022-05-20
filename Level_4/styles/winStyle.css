@@ -1,0 +1,24 @@
+body {
+    height: 608px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(55deg, #052021 0, #061b1b 12.5%, #051514 25%, #030c0b 37.5%, #000000 50%, #000000 62.5%, #000000 75%, #000000 87.5%, #000000 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    size: 50px;
+}
+
+header {
+    color: white;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
